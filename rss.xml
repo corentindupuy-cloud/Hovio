@@ -6,11 +6,11 @@
   <channel>
     <title>Test Hovio</title>
     <link>https://hovio.fr</link>
-    <language>fr</language>
+    <language>fr-FR</language>
     <itunes:author>Hovio</itunes:author>
     <itunes:summary>Premier podcast test</itunes:summary>
     <description>Premier podcast test</description>
-    <itunes:explicit>false</itunes:explicit>
+    <itunes:explicit>no</itunes:explicit>
 
     <itunes:category text="Health">
       <itunes:category text="Cardiology"/>
@@ -25,7 +25,7 @@
       <description>Le premier podcast chargé sur Hovio</description>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       <itunes:author>Hovio</itunes:author>
-      <itunes:explicit>false</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
 
       <enclosure 
         url="https://raw.githubusercontent.com/corentindupuy-cloud/Hovio/main/Podcast1.mp3"
