@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>Test Hovio</title>
+    <link>https://hovio.fr</link>
+    <language>fr</language>
+    <itunes:author>Hovio</itunes:author>
+    <itunes:summary>Premier podcast test</itunes:summary>
+    <description>Premier podcast test</description>
+    <itunes:explicit>false</itunes:explicit>
+
+    <itunes:category text="Health">
+      <itunes:category text="Cardiology"/>
+    </itunes:category>
+
+    <atom:link href="https://tonurlpublique.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>TEST1</title>
+      <description>Le premier podcast chargé sur Hovio</description>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <itunes:author>Hovio</itunes:author>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://tonurlpublique.github.io/Podcast1.mp3" type="audio/mpeg"/>
+      <guid isPermaLink="false">test-hovio-episode-1</guid>
+    </item>
+
+  </channel>
+</rss>
